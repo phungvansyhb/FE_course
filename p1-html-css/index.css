@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
 .footer {
     font-size: 14px;
     width: 100vw;
@@ -11,10 +18,67 @@
     font-weight: 700;
     line-height: 1.4;
     text-transform: capitalize;
-    margin-bottom: 24px;
+    margin-bottom: 10px;
 }
 
 /* start code */
-.search__action input {}
+/* .search__action input {}
 
-.search__action button {}
+.search__action button {} */
+
+.thanman {
+    width: 95%;
+    height: 700px;
+    display: flex;
+    margin: auto;
+    padding: 40px;
+
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.submenu{
+    list-style-type: none;
+}
+.submenu a{
+    line-height: 1.5;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+.submenu a:hover{
+    color: red;
+}
+hr {
+    color: black;
+}
+.fix {
+    margin-top: 17px;
+}
+.h3fix {
+    margin-bottom: 25px;
+}
+li{
+    margin-bottom: 18px;
+}
+span {
+    font-weight: 600;
+    font-size: 13px;
+}
+.iconn {
+    display: flex;
+    width: 100%;
+    height:  50px;
+    margin-top: 55px; 
+}
+.iconn p{
+    font-size: 200%;
+    float: left;
+    width: 15%;
+    padding: 4px;
+}

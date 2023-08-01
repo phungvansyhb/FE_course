@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
 .footer {
     font-size: 14px;
     width: 100vw;
@@ -11,10 +18,125 @@
     font-weight: 700;
     line-height: 1.4;
     text-transform: capitalize;
-    margin-bottom: 24px;
+    margin-bottom: 10px;
 }
 
 /* start code */
-.search__action input {}
+/* .search__action input {}
 
-.search__action button {}
+.search__action button {} */
+
+.thanman {
+    width: 95%;
+    height: 620px;
+    display: flex;
+    margin: auto;
+    padding: 40px;
+
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.submenu{
+    list-style-type: none;
+}
+.submenu a{
+    line-height: 1.5;
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+.submenu a:hover{
+    color: red;
+}
+hr {
+    color: black;
+}
+.fix {
+    margin-top: 17px;
+}
+.h3fix {
+    margin-bottom: 25px;
+}
+li{
+    margin-bottom: 18px;
+}
+span {
+    font-weight: 600;
+    font-size: 13px;
+}
+.iconn {
+    display: flex;
+    width: 72%;
+    height:  50px;
+    margin-top: 75px; 
+    flex-direction: column;
+    flex-wrap: wrap
+}
+.iconn p{
+    font-size: 180%; 
+    padding: 10px;
+    background: #000001;
+    clip-path: circle(50%);
+    height: 1.7em;
+    width: 1.7em;
+    color:rgb(255, 255, 255);
+}
+.last {
+    width: 95%;
+    height: 100px;
+    display: flex;
+    margin: auto;
+    padding-left: 40px;
+}
+.last .left {
+    width: 9%;
+    height: 40px;
+    display: flex;
+    float: left;
+}
+.left i{
+    padding-right: 9px;
+}
+.last .righ {
+    width: 86%;
+    height: 100px;
+    display: flex;
+    float: left;
+    padding-left: 20px;
+    font-size: 17px;
+}
+.need{
+    font-size: large;
+}
+.fill i {
+    font-size: 200%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+        
+}
+.righ a{
+    color: black;
+   font-weight: 600;
+}
+input{
+    width: 18%;
+    height: 40%;
+    padding: 6px;
+}
+button {
+    width: 6%;
+    height: 40%;
+    padding: 6px;
+    border: 1px 1px silver;
+}
+button:hover {
+    background: rgb(16, 110, 168);
+    border: 1px 1px rgb(57, 125, 154);
+    cursor: pointer;
+}

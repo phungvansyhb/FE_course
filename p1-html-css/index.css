@@ -48,7 +48,7 @@
     line-height: 1.5;
     text-decoration: none;
     color: black;
-    font-size: 14px;
+    font-size: 13px;
     padding-bottom: 10px;
 }
 .submenu a:hover{
@@ -72,13 +72,55 @@ span {
 }
 .iconn {
     display: flex;
-    width: 100%;
+    width: 72%;
     height:  50px;
     margin-top: 55px; 
+    flex-direction: column;
+    flex-wrap: wrap
 }
 .iconn p{
-    font-size: 200%;
+    font-size: 180%; 
+    padding: 10px;
+    background: #000001;
+    clip-path: circle(50%);
+    height: 1.7em;
+    width: 1.7em;
+    color:rgb(255, 255, 255);
+}
+.last {
+    width: 95%;
+    height: 100px;
+    display: flex;
+    margin: auto;
+    padding-left: 40px;
+}
+.last .left {
+    width: 9%;
+    height: 100px;
+    display: flex;
     float: left;
-    width: 15%;
-    padding: 4px;
+}
+.left i{
+    padding-right: 9px;
+}
+.last .righ {
+    width: 86%;
+    height: 100px;
+    display: flex;
+    float: left;
+    padding-left: 20px;
+    font-size: 17px;
+}
+.need{
+    font-size: large;
+}
+.fill i {
+    font-size: 200%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+        
+}
+.righ a{
+    color: black;
+   font-weight: 600;
 }
